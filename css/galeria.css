@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: radial-gradient(circle, rgb(214, 37, 37), rgb(241, 162, 175), rgb(108, 100, 97));
+    font-family: Arial, Helvetica, sans-serif; 
+}
+h1{
+    color: black;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+h1:hover{
+    color: white;
+
+}
+img{
+    width: 250px;
+    height: 150px;
+    opacity: .4;
+    border: 2px double #949494;
+}
+img:hover{
+    opacity: 1;
+    border: white solid 2px;
+    
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+@media screen and (max-width: 376px){
+    body{
+      margin-top: 4rem;
+    }
+    .header{
+      height: initial;
+    }
+    }
